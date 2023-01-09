@@ -1,0 +1,99 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif
+}
+
+body {
+  font-size: 16px;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+}
+
+@media (max-width:992px) {
+  .w3-jumbo {
+    font-size: 32px !important;
+  }
+
+  .w3-xxxlarge {
+    font-size: 24px !important;
+  }
+
+  .notification {
+    position: fixed;
+    top: calc(100% - 100px)!important;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+#termini {
+  font-family: "Poppins", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #termini td, #termini th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #termini tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #termini tr:hover {background-color: rgba(76, 175, 80, .5)!important;}
+  
+  #termini th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    position: sticky;
+    top: 0;
+    border: none;
+  }
+
+  .city {background-color: #ddd!important;}
+
+
+  .w3-gold {
+    background-color: #c0b460;
+    color: #fff;
+  }
+
+
+  input[type="file"]::file-selector-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #ccc;
+  }
+  
+  input[type="file"]::file-selector-button:hover {
+    background-color: grey;
+  }
+  
+  .w3-right {
+    text-align: right!important;
+}
